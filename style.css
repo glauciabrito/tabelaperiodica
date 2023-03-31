@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table, tr, td, th{
+    width:100%;
+    padding:1px;
+    margin: 10px;
+    font-size:14px;
+    text-align: center;
+    /*border-collapse:collapse;*/
+}
+
+td{
+    border:#000 solid 1px;
+    width:100px;
+    height:15px;
+}
+
+td.legenda{
+    border: none;
+    vertical-align: bottom;
+}
+
+td.lantanoides{
+    background-color: rosybrown;
+}
+
+td.actinoides{
+    background-color: salmon;
+}
+
+
+table {
+	border-collapse: separate;
+	border-spacing: 10px 10px;
+	empty-cells: hide;
+    table-layout: fixed;
+}
